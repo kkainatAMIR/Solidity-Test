@@ -1,0 +1,16 @@
+{
+  "name": "token-management-backend",
+  "version": "1.0.0",
+  "description": "Express backend for ERC-20 token management on Sepolia",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.2",
+    "dotenv": "^16.4.2",
+    "express": "^4.21.2",
+    "web3": "^4.16.0"
+  }
+}
